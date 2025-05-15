@@ -1,0 +1,9 @@
+{
+    "name": "ai-dev",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "features": {
+      "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "postCreateCommand": "pip install --upgrade pip pytest pytest-cov && pytest || true"
+  }
+  
