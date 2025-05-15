@@ -1,0 +1,3 @@
+supabase
+taskmaster
+github
